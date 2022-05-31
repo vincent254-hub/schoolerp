@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>HTVC configuration</title>
+    <title>School_ERP_configuration</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link href="{{ URL::to('/') }}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="{{ URL::to('/') }}/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -24,9 +24,9 @@
                 @endif
 
                 @if ($currStep == 'welcome')
-                    <center>Thank you for choosing phoenix Inc for your school administration.
+                    <center>Thank you for choosing school Erp for your school administration.
                         <br />
-                        Please follow the next steps to complete Phoenix installation
+                        Please follow the next steps to complete ERP installation
                     </center>
                     <br />
                     <input type="hidden" name="nextStep" value="1">
@@ -125,9 +125,9 @@
 
                 @if ($currStep == '3')
                     <div class="form-group">
-                        <center><b>Thank You for installing phoenix</b></center>
+                        <center><b>Thank You for installing our ERP system</b></center>
                     </div>
-                    <a href="<?php echo URL::to('/'); ?>" class="btn bg-olive btn-block">Start using Phoenix</a>
+                    <a href="<?php echo URL::to('/'); ?>" class="btn bg-olive btn-block">Start using School ERP manager</a>
                 @endif
             </div>
             <div class="footer">
