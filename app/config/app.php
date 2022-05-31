@@ -72,8 +72,7 @@ return array(
 	| will not be safe. Please do this before deploying an application!
 	|
 	*/
-
-	'key' => 'SchoexSchoolApplicationByCrHouse',
+	'key' => 'fP/lPikBb3m0G3PotncGpydC0+May5HfUxvU2Vjs2/U='	
 	// 'key' => 'AES-256-CBC',
 
 	/*
